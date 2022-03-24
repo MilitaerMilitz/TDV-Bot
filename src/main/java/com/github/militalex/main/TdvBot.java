@@ -37,7 +37,7 @@ public final class TdvBot {
     private TdvBot() throws LoginException {
         CommandRegistry.getInstance().registerCommands();
 
-        JDABuilder builder = JDABuilder.createDefault("OTUzNzA5NjQ1NDkzNTk2MjQw.YjIhUg.nGKWWIMXwO7a2O5FK8pu_aQ1tWQ",
+        JDABuilder builder = JDABuilder.createDefault("",
                 GatewayIntent.GUILD_MESSAGES,
                 GatewayIntent.GUILD_EMOJIS,
                 GatewayIntent.GUILD_VOICE_STATES);
